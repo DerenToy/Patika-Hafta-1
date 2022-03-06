@@ -1,3 +1,4 @@
+
 -- 1. city tablosu ile country tablosunda bulunan şehir (city) ve ülke (country) isimlerini birlikte görebileceğimiz LEFT JOIN sorgusunu yazınız.
 SELECT city, country FROM city 
 LEFT JOIN country on city.country_id = country.country_id;
